@@ -106,7 +106,7 @@ todoInput.addEventListener('keyup', (e) => {
 });
 
 clearCompletedBtn.addEventListener('click', () => {
-  //const todo = new Todo();
+  // const todo = new Todo();
   const filtered = todosArr.filter((todo) => todo.completed !== true);
   todosArr = filtered;
   for (let i = 0; i < todosArr.length; i += 1) {
