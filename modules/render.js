@@ -1,5 +1,5 @@
-import Todo from './todo';
-import updateStatus from './todostatus';
+import Todo from './todo.js';
+import updateStatus from './todostatus.js';
 
 const todoInput = document.querySelector('.addTodo');
 const clearCompletedBtn = document.querySelector('.completeButton');
